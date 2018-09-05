@@ -7,7 +7,7 @@ export TURTLEBOT3_MODEL=$2
 echo "Turtlebot3 Workspace directory =" $WSROOT
 echo "Turtlebot3 model = " $TURTLEBOT3_MODEL
 
-//source /opt/ros/melodic/setup.bash
+#source /opt/ros/melodic/setup.bash
 source $WSROOT/devel/setup.bash
 
 echo "ROS_ROOT=" $ROS_ROOT
